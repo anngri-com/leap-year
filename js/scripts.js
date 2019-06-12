@@ -10,5 +10,7 @@ $(document).ready(function() {
 var leapYear = function(argYear) {
   if (argYear % 4 !== 0 ) {
     return false;
+  } else {
+    return true;
   }
 } 
