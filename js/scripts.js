@@ -6,3 +6,9 @@ $(document).ready(function() {
     $("#result").text(result);
   });
 });
+
+var leapYear = function(argYear) {
+  if (argYear % 4 !== 0 ) {
+    return false;
+  }
+} 
