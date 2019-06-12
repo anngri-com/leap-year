@@ -8,7 +8,7 @@ $(document).ready(function() {
 });
 
 var leapYear = function(argYear) {
-  if (argYear % 4 !== 0 || argYear % 100 === 0 ) {
+  if (argYear % 4 !== 0 || argYear % 400 !== 0 && argYear % 100 === 0  ) {
     return false;
   } else {
     return true;
